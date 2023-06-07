@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    padding: 50px;
+}
+
+.controls {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+}
+
+
+input {
+    padding: 10px 15px;
+    margin-bottom: 15px;
+}
+
+.image {
+    margin-left: 50px;
+    width: 256px;
+    height: 256px;
+
+    border: 1px solid black;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 25px;
+}
+
+.info {
+    margin-left: 25px;
+    font-size: 19px;
+}
